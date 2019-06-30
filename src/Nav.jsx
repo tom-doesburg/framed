@@ -12,9 +12,9 @@ class Nav extends React.Component {
           
                <div>
                         <svg width="25" height="25">
-                            <path d="M0,5 30,5" stroke="#fff" stroke-width="3"/>
-                            <path d="M0,14 30,14" stroke="#fff" stroke-width="3"/>
-                            <path d="M0,23 30,23" stroke="#fff" stroke-width="3"/>
+                            <path d="M0,5 30,5" stroke="#fff" strokeWidth="3"/>
+                            <path d="M0,14 30,14" stroke="#fff" strokeWidth="3"/>
+                            <path d="M0,23 30,23" stroke="#fff" strokeWidth="3"/>
                         </svg>
                 </div>
             </header>
@@ -67,7 +67,7 @@ class Nav extends React.Component {
         </ul>
         </li>
         <li>
-        <a href="#"><i className="ion-ios-cog-outline"></i> <span class="">Settings</span></a>
+        <a href="#"><i className="ion-ios-cog-outline"></i> <span className="">Settings</span></a>
         <ul className="nav-flyout">
         <li>
         <a href="#"><i className="ion-ios-locked-outline"></i>Account</a>

@@ -1,21 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import {HashRouter as Router, Route} from 'react-router-dom'
-
-import Header from "../src/Header"
-import Home from "../src/Home"
-import ImageGallery from '../src/ImageGallery';
-import Nav from "../src/Nav"
-import Frames from "../src/Frames"
-import Photographers from "../src/Photographers"
-import Artists from "../src/Artists"
-import MyFrames from "../src/MyFrames"
-import Footer from "../src/Footer"
-
-
 const PREFIX_URL = 'https://raw.githubusercontent.com/xiaolin/react-image-gallery/master/static/';
 
-class App extends React.Component {
+class DisplayImageGallery extends React.Component {
 
   constructor() {
     super();
@@ -197,15 +182,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <Router>
-        <div>
-      <Header />  
-      <Nav />  
-      {/* <Route exact path='/' component={Home} /> */}
-      <Route path='/Frames' component={Frames} />
-      <Route path='/Artists' component={Artists} />
-      <Route path='/Photographers' component={Photographers} />
-      <Route path='/MyFrames' component={MyFrames} />
+      
        <section className='app'>
         <ImageGallery
           ref={i => this._imageGallery = i}
@@ -355,12 +332,7 @@ class App extends React.Component {
 
         </div>
       </section>
-      <Footer />
-     
-      </div>
-      </Router>
+
     );
   }
 }
-
-ReactDOM.render(<App/>, document.getElementById('app'));
