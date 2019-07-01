@@ -92,8 +92,9 @@ label {
 .app .image-gallery,
 .app-sandbox {
   margin: 0 auto;
-  width: 65%;
-  transition: all 1s ease;
+  width: 72%;
+  padding-left: 308px;
+  transition: all 2s ease;
 }
 
 

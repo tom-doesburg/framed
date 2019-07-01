@@ -34,6 +34,14 @@ gulp.task('sass', function () {
     .pipe(livereload());
 });
 
+gulp.task('sass', function () {
+  gulp.src('./styles/scss/main.scss')
+    .pipe(sass())
+    .pipe(rename('main.css'))
+    .pipe(gulp.dest('./styles/css/'))
+    .pipe(livereload());
+});
+
 gulp.task('sass-no-icon', function () {
   gulp.src('./styles/scss/image-gallery-no-icon.scss')
     .pipe(sass())
