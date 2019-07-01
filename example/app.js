@@ -206,6 +206,8 @@ class App extends React.Component {
       <Route path='/Artists' component={Artists} />
       <Route path='/Photographers' component={Photographers} />
       <Route path='/MyFrames' component={MyFrames} />
+      <Route exact path='/' render={props => {
+       return (
        <section className='app'>
         <ImageGallery
           ref={i => this._imageGallery = i}
@@ -355,6 +357,8 @@ class App extends React.Component {
 
         </div>
       </section>
+       )
+      }}/>
       <Footer />
      
       </div>
