@@ -4,7 +4,9 @@ import React from "react";
 class Header extends React.Component {
     render() {
         return (
-            <header>nothing in here yet</header>
+            <div className='main-header'>
+            <header>FRAMED</header>
+            </div>
         )
     }
 }

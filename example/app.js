@@ -201,7 +201,7 @@ class App extends React.Component {
         <div>
       <Header />  
       <Nav />  
-      {/* <Route exact path='/' component={Home} /> */}
+      <Route exact path='/' component={Home} />
       <Route path='/Frames' component={Frames} />
       <Route path='/Artists' component={Artists} />
       <Route path='/Photographers' component={Photographers} />
@@ -359,7 +359,7 @@ class App extends React.Component {
       </section>
        )
       }}/>
-      <Footer />
+      {/* <Footer /> */}
      
       </div>
       </Router>

@@ -3,7 +3,7 @@ body {
   padding: 0;
   background: #f4f6f9;
   color: #222;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'lato', sans-serif;
 }
 
 ul, li {
@@ -91,9 +91,12 @@ label {
 
 .app .image-gallery,
 .app-sandbox {
-  margin: 0 auto;
-  width: 72%;
-  padding-left: 308px;
+  margin-left: 160px;
+  margin-top: 20px;
+  width: 50%;
+  padding-left: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   transition: all 2s ease;
 }
 
@@ -162,7 +165,7 @@ label {
 
 .app-interval-label {
   display: table-cell;
-  vertical-align: middle;
+  vertical-align: left;
   padding: 6px 22px;
   font-size: 14px;
   font-weight: 400;
@@ -192,13 +195,14 @@ label {
 }
 
 input.app-interval-input {
-  width: 65px;
+  width: 50px;
 }
 
 .app-checkboxes {
-  margin-top: 10px;
+  margin-top: 20px;
+  display: inline-flexbox;
 }
 
 .app-checkboxes li {
-  display: block;
+  display: inline-flex;
 }

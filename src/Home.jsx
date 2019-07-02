@@ -7,7 +7,7 @@ class Home extends React.Component {
           <div>
           <div className="cent">
             <div className="square">
-            <img src="" alt="Picture Frame"></img>
+            <img src="../../public/images/picture_frame" alt="Picture Frame"></img>
             
             
             </div>
