@@ -12,12 +12,6 @@ class Home extends React.Component {
             
             </div>
             </div>
-
-            {/* <div className="slideshow"> */}
-            {/* <div>
-            <img src="./images/celebrity_millennium.png"></img>
-            </div> */}
-            {/* </div> */}
             </div>
     )
   }

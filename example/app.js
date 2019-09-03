@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import {HashRouter as Router, Route} from 'react-router-dom'
 
 import Header from "../src/Header"
-import Home from "../src/Home"
+// import Home from "../src/Home"
 import ImageGallery from '../src/ImageGallery';
 import Nav from "../src/Nav"
 import Frames from "../src/Frames"
@@ -201,7 +201,7 @@ class App extends React.Component {
         <div>
       <Header />  
       <Nav />  
-      <Route exact path='/' component={Home} />
+      {/* <Route exact path='/' component={Home} /> */}
       <Route path='/Frames' component={Frames} />
       <Route path='/Artists' component={Artists} />
       <Route path='/Photographers' component={Photographers} />
